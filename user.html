@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table scrollable sample</title>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.github.com/niusounds/jquery.tableScrollable.js/master/jquery.tableScrollable.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#table-users').tableScrollable({
+			height : 200
+		});
+	});
+</script>
+</head>
+<body>
+	<div class="container">
+		<table id="table-users" class="table table-bordered table-striped table-hover">
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>name</th>
+					<th>sex</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>0001</td>
+					<td>Arc</td>
+					<td>male</td>
+				</tr>
+				<tr>
+					<td>0002</td>
+					<td>Kukuru</td>
+					<td>female</td>
+				</tr>
+				<tr>
+					<td>0003</td>
+					<td>Poco</td>
+					<td>male</td>
+				</tr>
+				<tr>
+					<td>0004</td>
+					<td>Tosh</td>
+					<td>male</td>
+				</tr>
+				<tr>
+					<td>0005</td>
+					<td>Gogen</td>
+					<td>male</td>
+				</tr>
+				<tr>
+					<td>0006</td>
+					<td>Chongara</td>
+					<td>male</td>
+				</tr>
+				<tr>
+					<td>0007</td>
+					<td>Iga</td>
+					<td>male</td>
+				</tr>
+				<tr>
+					<td>0008</td>
+					<td>Choco</td>
+					<td>female</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
