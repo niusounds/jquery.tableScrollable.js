@@ -13,7 +13,7 @@ It makes table to fixed thead and scrollable tbody.
     <script src="path/to/jquery.tableScrollable.js"></script>
     <script>
       $(function() {
-        $('#table-id').tableScroll();
+        $('#table-id').tableScrollable();
       });
     </script>
     ...
