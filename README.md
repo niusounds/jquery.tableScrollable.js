@@ -20,6 +20,6 @@ It makes table to fixed thead and scrollable tbody.
     </head>
 
 ### Options
-    $('#table-id').tableScroll({
+    $('#table-id').tableScrollable({
       height : 400 // tbody's height (default 400)
     });
